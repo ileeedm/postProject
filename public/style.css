@@ -1,0 +1,188 @@
+#modalId{
+   display: flex;
+   text-align: center;
+   width: 90%;
+   max-width: 600px;
+   
+   margin: 0%;
+   margin: auto;
+   margin-top: 35px;
+   margin-bottom: 35px;
+  
+}
+textarea{
+   text-align: left;
+   background-color: #262e37;
+}
+h4{
+   color: #0c6efd;
+}
+#modalInput{
+   color: #0c6efd;
+   background-color: #262e37;
+   border: none;
+   outline: none;
+}
+
+
+.modal-header{
+   border-bottom: 2px solid #252c33;
+}
+.modal-footer{
+   border-top:  2px solid #252c33;
+}
+
+#myBtn {
+   margin-bottom: 15px;
+}
+
+.mx-10{
+   width: 90%;
+   max-width: 600px;
+   margin-top: 20px;
+   display: inline-block;
+   text-align: center;
+   background-color: #20252a;
+   color: #0c6efd;
+   
+
+   border-radius: 5%;
+}
+h3{
+   margin-top: 20px;
+   
+}
+.main-content {
+  
+
+   background-image: linear-gradient(#273039,#1d2125);
+   display: flex;
+   flex-direction:column;
+   flex-basis: 100%;
+   align-items: center;
+   
+}
+footer {
+   margin-top: auto;
+   background-color: #1d2125;
+   
+}
+#home{
+   font-size: 17px;
+}
+
+.nav-item a {
+   color: #0c6efd; /* Change this to your desired color */
+}
+p{
+   color: #0c6efd; /* Change this to your desired color */
+   text-align: left;
+}
+
+
+body, html {
+   /* Gradient from top to bottom */
+   background-color: #273039;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+}
+
+#headContainer{
+   display: flex;
+   justify-content: center;
+   
+}
+
+#textContainer{
+   
+   padding-left: 600px;
+   padding-right: 600px;
+ 
+}
+
+#labelText{
+
+   padding-bottom: 10px;
+}
+
+#modalBtn{
+   margin-top: 10px;
+
+   position: relative;
+   
+  
+}
+.postText{
+   padding-left: 300px;
+   padding-right: 300px;
+}
+#modalInput{
+  
+   height: 175px;
+  
+}
+.my-5 {
+   margin-top: 17rem !important;
+   margin-bottom: 0
+}
+#modalInput {
+   vertical-align: bottom;
+}
+.py-5 {
+   padding-top: 1rem !important;
+   padding-bottom: 0
+}
+
+#modalContainer{
+   text-align: center;
+   padding-top: 40px;
+
+  
+}
+/* The Modal (background) */
+#myModall {
+   display: "block"; /* Hidden by default */
+ 
+   overflow: auto; /* Enable scroll if needed */
+   background-color: rgb(0,0,0); /* Fallback color */
+   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+ }
+ #borderBot{
+   border-bottom: 2px solid #252c33;
+ }
+
+ 
+ /* Modal Content/Box */
+ .modal-content {
+   background-color: #20252a;
+  
+   margin: 10% auto; /* 15% from the top and centered */
+   padding-left: 10px;
+   padding-right: 10px;
+   
+   width: 80%; /* Could be more or less, depending on screen size */
+ }
+
+ .col-auto{
+   margin-left: 340px;
+ }
+ /* The Close Button */
+ #btnClose {
+   color: #aaa;
+   float: right;
+   font-size: 20px;
+   font-weight: bold;
+  
+   padding-top: 3px;
+   padding-bottom: 3px;
+ }
+ 
+ .close:hover,
+ .close:focus {
+   color: black;
+   text-decoration: none;
+   cursor: pointer;
+ }
+
+
